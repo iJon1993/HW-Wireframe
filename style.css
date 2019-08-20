@@ -1,1 +1,38 @@
+body {
+    background-color: grey;
+}
 
+#header {
+    text-align: center;
+}
+
+#top {
+    text-align: center;  
+}
+
+#top h2 {
+    display: inline-block;
+    background-color: darkturquoise;
+}
+
+body div {
+    box-sizing: border-box;
+}
+
+#middle {
+    display: inline-block;
+    text-align: left;
+    width: 40%;
+}
+
+#middle img {
+    width: 256px;
+    padding: 64px;
+    background-color: darkgray;
+}
+
+#aside {
+    display: inline-block;
+    text-align: right;
+    width: 40%;
+}
