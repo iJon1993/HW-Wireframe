@@ -22,17 +22,29 @@ body div {
 #middle {
     display: inline-block;
     text-align: left;
-    width: 40%;
+    padding-left: 128px;
 }
 
 #middle img {
     width: 256px;
-    padding: 64px;
+    padding: 32px;
     background-color: darkgray;
 }
 
 #aside {
-    display: inline-block;
-    text-align: right;
-    width: 40%;
+    vertical-align: top;
+    float: right;
+}
+
+#aside ul {
+    margin-right: auto;
+    padding-right: 128px;
+}
+#aside ul li {
+    background-color: burlywood;
+    list-style-position: inside;
+}
+
+footer {
+    padding-left: 128px;
 }
