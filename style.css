@@ -1,5 +1,14 @@
 html {
+<<<<<<< HEAD
     background-color: white;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+=======
+    background-color: grey;
+>>>>>>> e19947e2b4a50ee1622083056ade8617ae59d973
 }
 
 body {
@@ -8,6 +17,7 @@ body {
 }
 
 #header {
+<<<<<<< HEAD
     text-align: left;
     display: inline-block;
     background-color: white;
@@ -17,6 +27,16 @@ body {
     width: 50%;
     margin-right: -4px;
     vertical-align: top;    
+=======
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+#header h1 {
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+>>>>>>> e19947e2b4a50ee1622083056ade8617ae59d973
 }
 
 #header h1 {
@@ -52,10 +72,14 @@ body div {
 #middle {
     display: inline-block;
     text-align: left;
+<<<<<<< HEAD
     margin-bottom: -4px;
     padding: 32px;
     width: 50%;
     vertical-align: top;
+=======
+    padding-left: 20%;
+>>>>>>> e19947e2b4a50ee1622083056ade8617ae59d973
 }
 
 #middle img {
@@ -69,6 +93,7 @@ body div {
     text-align: right;
     margin-right: -4px;
     float: right;
+    padding-right: 20%;
 }
 
 #aside ul {
@@ -84,7 +109,11 @@ body div {
 }
 
 footer {
+<<<<<<< HEAD
     padding-left: 32px;
     border-top: 2px solid black;
     clear: both;
+=======
+    padding-left: 20%;
+>>>>>>> e19947e2b4a50ee1622083056ade8617ae59d973
 }
