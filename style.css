@@ -1,5 +1,5 @@
 html {
-    background-color: grey;
+    background-color: white;
 }
 
 body {
@@ -8,23 +8,41 @@ body {
 }
 
 #header {
-    text-align: center;
-    color: white;
-    background-color: black;
+    text-align: left;
+    display: inline-block;
+    background-color: white;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    border-bottom: 2px solid black;
+    width: 50%;
+    margin-right: -4px;
+    vertical-align: top;    
 }
 
 #header h1 {
+    padding: 32px;
+    color: white;
+    margin-left: 32px;
     margin-block-start: 0px;
     margin-block-end: 0px;
-}
-
-#top {
-    text-align: center;  
-}
-
-#top h2 {
     display: inline-block;
-    background-color: darkturquoise;
+    background-color: black;
+}
+
+#headList {
+    text-align: right;
+    display: inline-block;
+    padding: 26px;
+    width: 50%;
+    background-color: white;
+    border-bottom: 2px solid black;
+}
+
+#headList li {
+    text-align: right;
+    list-style-position: inside;
+    display: inline-block;
+    padding-right: 16px;
 }
 
 body div {
@@ -34,7 +52,10 @@ body div {
 #middle {
     display: inline-block;
     text-align: left;
-    padding-left: 20%;
+    margin-bottom: -4px;
+    padding: 32px;
+    width: 50%;
+    vertical-align: top;
 }
 
 #middle img {
@@ -45,19 +66,25 @@ body div {
 
 #aside {
     vertical-align: top;
+    text-align: right;
+    margin-right: -4px;
     float: right;
-    padding-right: 20%;
 }
 
 #aside ul {
-    margin-right: auto;
-    padding-right: 128px;
+    padding-right: 32px;
+    padding-top: 16px;
+    text-align: right;
 }
+
 #aside ul li {
     background-color: burlywood;
+    padding: 16px;
     list-style-position: inside;
 }
 
 footer {
-    padding-left: 20%;
+    padding-left: 32px;
+    border-top: 2px solid black;
+    clear: both;
 }
